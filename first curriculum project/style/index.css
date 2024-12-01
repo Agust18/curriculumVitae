@@ -5,13 +5,7 @@ body {
     font-family: 'Arial', sans-serif;
     color: #2e4375;
     
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
-    color: #2e4375;
-    background-color: #d1bc8a;
-    width: 100%;
-    overflow-x: hidden;
+   
     
    
     
@@ -403,7 +397,7 @@ form textarea:invalid {
     border-color: #FF6347; /* Color de alerta (rojo) */
 }
 
-/* Responsividad
+
 @media screen and (max-width: 600px) {
     .formu {
         padding: 20px;
@@ -415,34 +409,7 @@ form textarea:invalid {
 
    
 
-} */
-
-/* Móviles (menores de 768px) */
-@media screen and (max-width: 768px) {
-    .contenedor {
-        flex-direction: column; /* Elementos en columna para pantallas pequeñas */
-    }
-    .contenedor .div {
-        margin: 10px 0; /* Reduce márgenes */
-    }
-}
-
-/* Tablets (768px a 1024px) */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .contenedor {
-        flex-direction: row; /* Elementos en fila */
-        justify-content: space-between;
-    }
-}
-
-/* Escritorio (1024px o más) */
-@media screen and (min-width: 1024px) {
-    .contenedor {
-        flex-wrap: nowrap; /* Evita que los elementos se apilen */
-    }
-}
-
-
+} 
 
 .contenedor .icon {
     text-decoration: none;
