@@ -12,8 +12,8 @@ body {
 }
 
 .nombre{
-    margin-bottom: 15px;
-    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-top: 3px;
     font-size: 3rem; /* Tamaño destacado pero limpio */
     color: #2e4375; /* Color minimalista y profesional */
     font-style: oblique;
@@ -37,22 +37,23 @@ body {
 /* Estilos para el header */
 header {
     text-align: center; /* Centra los elementos del header */
-    padding: 10px;
+    padding: 5px;
     background-color:#d1bc8a;
     border-bottom: 3px solid #2e4375;
-    margin: 8px;
+    margin: 10px;
  }
 
 
 /* Título principal */
 header h1 {
-    margin-bottom: 1px;
+    margin-bottom: 5px;
     font-size: 3rem; /* Tamaño destacado pero limpio */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif   ;
     color:#2e4375; /* Color minimalista y profesional */
     font-style: oblique;
     display: inline-block;
-    margin-top: 5px;}
+    margin-top: 5px;
+}
 
 /* Barra de navegación */
 .nav-links {
@@ -60,15 +61,17 @@ header h1 {
     justify-content: center; /* Centra la barra de navegación */
     gap: 20px; /* Espaciado igual entre ítems */
     list-style: none; /* Quitar viñetas */
-    /* padding: 0; */
-    margin: 1px;
+    
+   
 }
 
-.nav-links ul li:hover {
-    background-color:whitesmoke;
-    border-radius: solid 2 px;
-    width: 130px;
+.nav-links ul{
+    padding: 1px;
+    gap: 11px;
+    margin: 0px 2px 5px 2px;
+
 }
+
 
 
 
@@ -81,12 +84,14 @@ header h1 {
     transition: color 0.3s; /* Suaviza el cambio de color */
     font-family: 'Arial', sans-serif;
     font-style: oblique;
-    gap: 20px;
+    
 }
 
 .nav-links a:hover {
     /* color: #4a90e2; Mismo color que el título al pasar el mouse */
-    
+    cursor:pointer;
+    color: whitesmoke; /* Cambia a un azul */
+    transform:scale(1.1); /* Aumenta el tamaño */
 }
 
 .contenedor{
@@ -330,39 +335,41 @@ header h1 {
 /* Estilos del contenedor del formulario */
 .formu {
     background-color: #fff;
-    padding: 30px;
+    padding: 20px;
     border-radius: 50px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    justify-items: center;
-    margin: 10px 100px 1px 100px;
+    justify-items:center;
+    
+    
+    
 }
 
 /* Etiquetas del formulario */
 form label {
     display: block;
     font-size: 16px;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     font-weight: bold;
     color:#2e4375;
-    
+    margin-top: 5px;    
 }
 
 /* Entradas de texto y área de mensaje */
 form input,
 form textarea {
     width: 70%;
-    padding: 12px;
-    font-size: 16px;
+    padding: 33px;
+    font-size: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 1px;
     background-color: #f9f9f9;
-
+   
 }
 
 /* Área de texto */
 form textarea {
-    height: 150px;
+    height: 100px;
     resize: vertical;
 }
 
@@ -377,6 +384,7 @@ form button {
     cursor: pointer;
     transition: background-color 0.3s ease;
     width: 100%;
+    
 }
 
 form button:hover {
