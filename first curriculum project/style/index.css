@@ -16,10 +16,10 @@ body {
     margin-top: 3px;
     font-size: 3rem; /* Tamaño destacado pero limpio */
     color: #2e4375; /* Color minimalista y profesional */
-    font-style: oblique;
+    /* font-style: oblique; */
     font-size: 25px;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif   ;
+    font-family:  'Arial Narrow Bold', sans-serif   ;
     
     
 }
@@ -28,10 +28,10 @@ body {
     margin: 10px 0px 15px 0px;
     font-size: 3rem; /* Tamaño destacado pero limpio */
     color: #2e4375; /* Color minimalista y profesional */
-    font-style: oblique;
+    /* font-style: oblique; */
     font-size: 30px;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif   ;
+    font-family:  'Arial Narrow Bold', sans-serif   ;
 }
 
 /* Estilos para el header */
@@ -48,9 +48,9 @@ header {
 header h1 {
     margin-bottom: 5px;
     font-size: 3rem; /* Tamaño destacado pero limpio */
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif   ;
+    font-family:   'Arial Narrow Bold', sans-serif   ;
     color:#2e4375; /* Color minimalista y profesional */
-    font-style: oblique;
+    /* font-style: oblique; */
     display: inline-block;
     margin-top: 5px;
 }
@@ -83,7 +83,7 @@ header h1 {
     font-weight: bold; /* Negrita para destacar */
     transition: color 0.3s; /* Suaviza el cambio de color */
     font-family: 'Arial', sans-serif;
-    font-style: oblique;
+    /* font-style: oblique; */
     
 }
 
@@ -126,7 +126,7 @@ header h1 {
 }
 
 .div-sobre-mi p{
-    font-style: oblique;
+    /* font-style: oblique; */
     color:black;
     padding: 12px; 
     margin-left: 5pxpx;
@@ -149,7 +149,7 @@ header h1 {
 
 .div-info-title p{
     font-size: 20px;
-    font-style: oblique;
+    /* font-style: oblique; */
     color:#2e4375;
     padding: 1px;
     text-decoration: underline;
@@ -174,7 +174,7 @@ header h1 {
 
 .div-info-title ul li{
     color: black;
-    font-style: oblique;
+    /* font-style: oblique; */
     padding: 5px; 
 }
 
@@ -208,7 +208,7 @@ header h1 {
 }
 
 .finalizados p{
-    font-style: oblique;
+    /* font-style: oblique; */
     color:black;
     padding: 5px; 
     margin: 5px;
@@ -217,7 +217,7 @@ header h1 {
 }
 
 .cursando p{
-    font-style: oblique;
+    /* font-style: oblique; */
     color:black;
     padding: 5px; 
     margin: 5px;
@@ -226,7 +226,7 @@ header h1 {
 
 .finalizados h2{
     font-size: 20px;
-    font-style: oblique;
+    /* font-style: oblique; */
     color:#2e4375;
     padding: 1px;
     margin-left: 11px;
@@ -237,7 +237,7 @@ header h1 {
 
 .cursando h2{
     font-size: 20px;
-    font-style: oblique;
+    /* font-style: oblique; */
     color:#2e4375;
     padding: 1px;
     margin-left: 11px;
@@ -276,7 +276,7 @@ header h1 {
     text-align: left;
     margin: 0px 0px 0px 8px;
     font-size: 20px;
-    font-style: oblique;
+    /* font-style: oblique; */
     color:#2e4375;
     padding: 1px;
     text-decoration: underline;
@@ -293,7 +293,7 @@ header h1 {
     padding: 10px;
     border-bottom: 3px solid #2e4375;
     margin: 8px 8px; /* Agregamos un margen de 10px a los lados, entre los divs */
-    font-style: oblique;
+    /* font-style: oblique; */
     color:black;
     margin: 0px 0px 0px 8px;
    
@@ -319,7 +319,7 @@ header h1 {
 
 .capacidades p{
     font-size: 22px;
-    font-style: oblique;
+    /* font-style: oblique; */
     color:black;
     padding: 5px; 
     margin: 1px;
